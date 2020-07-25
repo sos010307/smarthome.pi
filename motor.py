@@ -22,6 +22,3 @@ try:
 except KeyboardInterrupt:
     p.stop()
 GPIO.cleanup()
-
-
-출처: https://ljs93kr.tistory.com/40 [건프의 소소한 개발이야기]
