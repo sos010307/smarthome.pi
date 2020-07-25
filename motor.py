@@ -10,14 +10,14 @@ p.start(0)
 cnt = 0
 try:
     while True:
-        p.ChangeDutyCycle(20)
-        print "angle : 20"
+        p.ChangeDutyCycle(1)
+        print "angle : 1"
         time.sleep(2)
-        p.ChangeDutyCycle(15)
-        print "angle : 15"
+        p.ChangeDutyCycle(6)
+        print "angle : 6"
         time.sleep(2)
-        p.ChangeDutyCycle(30)
-        print "angle : 30"
+        p.ChangeDutyCycle(10)
+        print "angle : 10"
         time.sleep(2)
 except KeyboardInterrupt:
     p.stop()
