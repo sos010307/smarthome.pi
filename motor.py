@@ -10,15 +10,15 @@ p.start(0)
 cnt = 0
 try:
     while True:
-        p.ChangeDutyCycle(1)
-        print "angle : 1"
-        time.sleep(1)
-        p.ChangeDutyCycle(5)
-        print "angle : 5"
-        time.sleep(1)
-        p.ChangeDutyCycle(8)
-        print "angle : 8"
-        time.sleep(1)
+        p.ChangeDutyCycle(20)
+        print "angle : 20"
+        time.sleep(2)
+        p.ChangeDutyCycle(15)
+        print "angle : 15"
+        time.sleep(2)
+        p.ChangeDutyCycle(30)
+        print "angle : 30"
+        time.sleep(2)
 except KeyboardInterrupt:
     p.stop()
 GPIO.cleanup()
